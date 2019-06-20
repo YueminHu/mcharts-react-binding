@@ -18,7 +18,8 @@
     "devmock": "npm run mock & npm run dev",
     "build": "node ./build/bin/index.js build",
     "build:analyze": "node ./build/bin/index.js build:analyze",
-    "mock": "json-server --watch mockData.json --port 9090"
+    "mock": "json-server --watch mockData.json --port 9090",
+    "prepare": "npm run build"
   },
   "reactSnap": {
     "source": "output",
