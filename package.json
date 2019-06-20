@@ -91,7 +91,7 @@
   },
   "home": {
     "development": "/",
-    "production": "/mcharts-react-binding/output"
+    "production": "/mcharts-react-binding/output/"
   },
   "proxy": {
     "/api/**": {
