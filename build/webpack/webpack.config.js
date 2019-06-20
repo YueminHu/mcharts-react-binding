@@ -60,7 +60,7 @@ module.exports = (env = {}) => {
     }
   }
   // 指定output输出目录
-  const output = env.output || "docs";
+  const output = env.output || "output";
   // 指定extra envs
   const extraEnvs = env.env ? JSON.parse(env.env) : [];
   return {

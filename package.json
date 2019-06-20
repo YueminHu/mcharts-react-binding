@@ -91,7 +91,7 @@
   },
   "home": {
     "development": "./",
-    "production": "./"
+    "production": "./output"
   },
   "proxy": {
     "/api/**": {
