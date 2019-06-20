@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{Q299:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),i=a("2iEm");t.default=function(e){return n.createElement("div",{style:{height:"100%",background:"lightblue"}},n.createElement("div",null,"this is second page"),n.createElement(i.a,{to:"/secondary/".concat(e.match.params.id,"/main")},"goto main page again!"))}}}]);
