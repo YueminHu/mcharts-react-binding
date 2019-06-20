@@ -15,7 +15,7 @@ import './styles/style.module.less';
 const render = Component => {
   ReactDOM.render(
     <AppContainer>
-      <Router>
+      <Router basename={'/mcharts-react-binding'}>
         <Component />
       </Router>
     </AppContainer>,
